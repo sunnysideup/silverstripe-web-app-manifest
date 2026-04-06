@@ -1,24 +1,30 @@
 {
-    "name": "bimthebam/silverstripe-web-app-manifest",
-    "description": "Configurable web app manifest generator for SilverStripe",
-    "type": "silverstripe-vendormodule",
-    "keywords": ["silverstripe", "module", "web app", "manifest", "pwa"],
-    "license": "BSD-3-Clause",
-    "authors": [
-        {
-            "name": "Christian Bünte (bimthebam)",
-            "homepage": "https://github.com/bimthebam"
-        }
-    ],
-    "require": {
-        "composer/installers": "*",
-        "silverstripe/framework": "^6",
-        "bimthebam/silverstripe-native-color-input": "^1",
-        "symbiote/silverstripe-gridfieldextensions": "^5"
-    },
-    "autoload": {
-        "psr-4": {
-            "BimTheBam\\WebAppManifest\\": "src/"
-        }
+  "name": "bimthebam/silverstripe-web-app-manifest",
+  "description": "Configurable web app manifest generator for SilverStripe",
+  "type": "silverstripe-vendormodule",
+  "keywords": [
+    "silverstripe",
+    "module",
+    "web app",
+    "manifest",
+    "pwa"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Christian Bünte (bimthebam)",
+      "homepage": "https://github.com/bimthebam"
     }
+  ],
+  "require": {
+    "composer/installers": "*",
+    "silverstripe/framework": "^6",
+    "bimthebam/silverstripe-native-color-input": "^1",
+    "symbiote/silverstripe-gridfieldextensions": "^5"
+  },
+  "autoload": {
+    "psr-4": {
+      "BimTheBam\\WebAppManifest\\": "src/"
+    }
+  }
 }
