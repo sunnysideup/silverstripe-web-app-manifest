@@ -170,7 +170,7 @@ class SiteConfig extends DataExtension
             )
         );
 
-        $icon->setAllowedExtensions(($allowedExtensions = ['png', 'jpg']));
+        $icon->setAllowedExtensions(($allowedExtensions = ['png', 'jpg', 'webp']));
         $icon->setFolderName('web-app-manifest');
         $icon->setRightTitle(_t(
             $scClass . '.WEB_APP_MANIFEST_ICON_RIGHT_TITLE',
